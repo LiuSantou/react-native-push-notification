@@ -249,6 +249,7 @@ PushNotification.localNotification({
     priority: "high", // (optional) set notification priority, default: high
     visibility: "private", // (optional) set notification visibility, default: private
     importance: "high", // (optional) set notification importance, default: high
+    imageUrl: 'https://imageUrl.png' // (optional) default: none, Add big picture in push notification
 
     /* iOS only properties */
     alertAction: // (optional) default: view
